@@ -22,7 +22,7 @@ body {
     display: grid;
     place-items: center;
     margin: 0;
-    padding: 0px 100px;
+    padding: 0px 24px;
     background-image: linear-gradient(to top, var(--cor00), var(--cor01), var(--cor02), var(--cor03), var(--cor04));
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,16 +31,17 @@ body {
 .login-card {
     position: relative;
     z-index: 3;
-    width: 600px;
-    height: 600px;
+    width: 100%;
+    margin: 0px 20px;
     background-color: white;
     margin: auto;
-    padding: 120px 30px 60px 30px;
+    padding: 70px 30px 44px;
     border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.616) 4px 4px 10px;
 }
 
 .login-form {
+    width: 100%;
     display: grid;
     margin: 0px;
     gap: 16px;
@@ -83,7 +84,7 @@ div h3 {
     color: rgba(0, 0, 0, 0.452);
 }
 
-@media (width <= 700px) {
+@media (width >= 500px) {
     body{
         padding: 0;
     }
@@ -91,7 +92,5 @@ div h3 {
     .login-card {
         margin: 0;
         width: 400px;
-        height: 500px;
-        padding: 90px 20px;
         }
 }
