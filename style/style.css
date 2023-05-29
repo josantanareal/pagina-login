@@ -57,7 +57,13 @@ body {
 }
 .login-form > input {
     padding: 10px;
+    border: 2px solid #ebebeb;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.375s;
+}
+
+.login-form > input:hover {
+    border: 2px solid var(--cor04);
 }
 
 .login-form > button {
