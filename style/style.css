@@ -33,11 +33,11 @@ body {
     z-index: 3;
     width: 100%;
     margin: 0px 20px;
-    background-color: rgba(255, 255, 255, 0.603);
+    background-color: rgba(255, 255, 255, 0.493);
     margin: auto;
     padding: 70px 30px 44px;
     border-radius: 30px;
-    box-shadow: rgba(0, 0, 0, 0.616) 4px 4px 10px;
+    box-shadow: rgba(0, 0, 0, 0.616) 10px 4px 20px 4px;
 }
 
 .login-form {
