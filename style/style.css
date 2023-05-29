@@ -23,7 +23,7 @@ body {
     place-items: center;
     margin: 0;
     padding: 0px 100px;
-    background-image: url("../img/background.svg");
+    background-image: linear-gradient(to top, var(--cor00), var(--cor01), var(--cor02), var(--cor03), var(--cor04));
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -34,7 +34,7 @@ body {
     width: 600px;
     height: 600px;
     background-color: white;
-    margin: 0px;
+    margin: auto;
     padding: 120px 30px 60px 30px;
     border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.616) 4px 4px 10px;
@@ -60,7 +60,8 @@ body {
 }
 
 .login-form > button {
-    background-color: var(--cor04);
+    color: white;
+    background-color: var(--cor00);
     border: 0;
 }
 
